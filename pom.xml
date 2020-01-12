@@ -7,6 +7,14 @@
     <groupId>springCloud</groupId>
     <artifactId>springCloud</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>cloud-common</module>
+        <module>cloud-service-1</module>
+        <module>cloud-service-2</module>
+        <module>eureka-server</module>
+        <module>serice-feign</module>
+        <module>service-zuul</module>
+    </modules>
 
     <packaging>pom</packaging>
 
@@ -20,10 +28,10 @@
         <relativePath/>
     </parent>
 
-    <modules>
-        <module>eureka-server</module>
-        <module>service-hi</module>
-    </modules>
+<!--    <modules>-->
+<!--        <module>eureka-server</module>-->
+<!--        <module>service-hi</module>-->
+<!--    </modules>-->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
