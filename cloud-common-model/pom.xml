@@ -10,10 +10,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>cloud-common</artifactId>
+    <artifactId>cloud-common-model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cloud-common</name>
+    <name>cloud-common-model</name>
     <description>Demo project for Spring Boot</description>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>cloud-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.16</version>
+        </dependency>
+    </dependencies>
 
 </project>

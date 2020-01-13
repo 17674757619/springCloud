@@ -14,6 +14,7 @@
         <module>eureka-server</module>
         <module>serice-feign</module>
         <module>service-zuul</module>
+        <module>cloud-common-model</module>
     </modules>
 
     <packaging>pom</packaging>

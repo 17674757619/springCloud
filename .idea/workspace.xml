@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b140a1-4b2f-42fb-affe-eb754010c801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-common/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-common-model/src/main/java/com/example/domain/company/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/entity/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/entity/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/Client1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/Client1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/Client2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/Client2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -34,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/service-zuul/target/" />
     <ignored path="$PROJECT_DIR$/serice-feign/target/" />
     <ignored path="$PROJECT_DIR$/cloud-common/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common-model/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,45 +55,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/Client2Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/EurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-service-1/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="418">
+              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/controller/HiController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="92" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+            <state relative-caret-position="204">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common-model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -109,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/Client1Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
@@ -121,10 +105,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-common-model/src/main/java/com/example/domain/company/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -132,17 +116,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service-2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="47" column="22" selection-end-line="76" />
+            <state relative-caret-position="238">
+              <caret line="14" column="59" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/ResultCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="68">
               <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
             </state>
           </provider>
@@ -183,26 +175,30 @@
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/entity/Result.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/entity/PageResult.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/entity/StatusCode.java" />
-        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/Client1Application.java" />
         <option value="$PROJECT_DIR$/cloud-service-2/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java" />
         <option value="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/Client2Application.java" />
         <option value="$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/Client1Application.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-service-1/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/cloud-common-model/src/main/java/com/example/domain/company/Company.java" />
+        <option value="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/Client1Application.java" />
+        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/cloud-common-model/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-1/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/StatusCode.java" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/ResultCode.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\openSoft\maven\entrepot" />
-        <option name="mavenHome" value="D:/openSoft/maven/apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\openSoft\maven\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="localRepository" value="D:\servlet\maven\bank" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\servlet\maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -213,15 +209,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-service-1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-service-1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="831" />
-    <option name="y" value="-15" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -232,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,43 +248,25 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-1" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-1" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -286,53 +274,22 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common-model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,13 +302,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578907134639" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-service-1/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.27586207" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -381,7 +339,20 @@
     </option>
     <option name="contentProportion" value="0.26220018" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceZuulApplication">
+  <component name="RunManager" selected="Application.Company">
+    <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.domain.company.Company" />
+      <module name="cloudcommonmodel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.domain.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-service-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Client1Application" />
@@ -423,8 +394,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.Client1Application" />
+      <item itemvalue="Spring Boot.Client2Application" />
+      <item itemvalue="Spring Boot.FeignApplication" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication" />
+      <item itemvalue="Application.Company" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Company" />
         <item itemvalue="Spring Boot.ServiceZuulApplication" />
       </list>
     </recent_temporary>
@@ -446,11 +426,13 @@
       <workItem from="1578820350186" duration="2587000" />
       <workItem from="1578834977728" duration="2521000" />
       <workItem from="1578837702069" duration="1466000" />
+      <workItem from="1578880744804" duration="429000" />
+      <workItem from="1578881185003" duration="12193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40130000" />
+    <option name="totallyTimeSpent" value="52752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,10 +444,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.29102668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.31333333" />
       <window_info id="Structure" order="1" sideWeight="0.502907" side_tool="true" weight="0.27647534" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -475,7 +457,7 @@
       <window_info id="Web" order="7" sideWeight="0.50259066" side_tool="true" weight="0.27647534" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3143872" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31422272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,18 +469,19 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4995958" weight="0.3285968" />
-      <window_info anchor="bottom" x="169" y="329" width="616" height="220" id="Run Dashboard" order="14" sideWeight="0.49555376" visible="true" weight="0.21847247" />
+      <window_info anchor="bottom" x="169" y="329" width="616" height="220" id="Run Dashboard" order="14" sideWeight="0.49555376" weight="0.3693495" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.24818109" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.48777777" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
+      <window_info anchor="right" id="BPMNPalette" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,17 +512,7 @@
     <entry file="file://$PROJECT_DIR$/cloud-common1/pom.xml" />
     <entry file="file://$PROJECT_DIR$/cloud-common1/cloud-common.iml" />
     <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/Client1Application.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/entity/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/entity/Result.java">
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/Result.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
@@ -549,25 +522,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/openSoft/maven/apache-maven-3.5.2/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/entity/PageResult.java">
+    <entry file="file://D:/openSoft/maven/apache-maven-3.5.2/conf/settings.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/PageResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.1.RELEASE/spring-webmvc-5.2.1.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" />
     <entry file="file://$PROJECT_DIR$/cloud-service-1/src/test/java/com/example/demo/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -638,59 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-1/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/Client2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <marker date="1578838580767" expanded="true" signature="465:506" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -706,10 +620,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/Client2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/controller/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="92" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-1/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common-model/src/main/java/com/example/domain/company/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/Client1Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
@@ -720,22 +687,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="47" column="22" selection-end-line="76" />
+        <state relative-caret-position="238">
+          <caret line="14" column="59" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/controller/HiController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/controller/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="92" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+        <state relative-caret-position="204">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="418">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -756,7 +752,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (demo)|Spring</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -779,6 +775,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -790,7 +787,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-service-1</last-edited>
+          <last-edited>cloud-common</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

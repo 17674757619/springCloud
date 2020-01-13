@@ -1,17 +1,28 @@
-package entity;
+package com.example.common.entity;
 
 public class Result {
-    private boolean flag;
+    private boolean success;
     private Integer code;
     private String message;
     private Object data;
 
-    public boolean isFlag() {
-        return flag;
+    public Result(ResultCode code){
+        this.success=code.success;
+        this.code=code.code;
+        this.message=code.message;
+    }
+    public Result(ResultCode code,Object data){
+        this.success=code.success;
+        this.code=code.code;
+        this.message=code.message;
+        this.data=data;
+    }
+    public boolean isSuccess() {
+        return success;
     }
 
-    public void setFlag(boolean flag) {
-        this.flag = flag;
+    public void setSuccess(boolean success) {
+        this.success = success;
     }
 
     public Integer getCode() {

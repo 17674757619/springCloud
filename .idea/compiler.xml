@@ -6,16 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="cloud-service-2" />
+        <module name="cloud-common" />
         <module name="cloud-service-1" />
+        <module name="cloud-service-2" />
         <module name="cloudcommon" />
-        <module name="service-zuul" />
+        <module name="cloudcommonmodel" />
+        <module name="eureka-server" />
         <module name="serice-feign" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-common" target="1.8" />
       <module name="cloudservice1" target="1.8" />
       <module name="demo" target="1.8" />
     </bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="cloud-service-1" options="-parameters" />
       <module name="cloud-service-2" options="-parameters" />
       <module name="cloudcommon" options="-parameters" />
+      <module name="cloudcommonmodel" options="-parameters" />
       <module name="cloudservice1" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
