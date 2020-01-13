@@ -1,6 +1,5 @@
 package com.example.demo.hystrix;
 
-import com.example.common.entity.Result;
 import com.example.demo.service.SchedualServiceHi;
 import org.springframework.stereotype.Component;
 

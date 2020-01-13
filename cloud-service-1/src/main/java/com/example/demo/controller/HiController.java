@@ -16,6 +16,6 @@ public class HiController {
     @RequestMapping("/hi")
     public Result home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
         String data="hi " + name + " ,i am from port:" + port;
-        return new Result(ResultCode.OK,data);
+        return new Result(ResultCode.REMTE_ERROR,data);
     }
 }
