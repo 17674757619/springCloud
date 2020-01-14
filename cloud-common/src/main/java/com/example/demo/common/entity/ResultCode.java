@@ -4,7 +4,8 @@ public enum ResultCode {
     OK(true,10000,"操作成功"),
     ERROR(false,10001,"操作失败"),
     ACCESS_ERROR(false,10002,"权限不足"),
-    REMTE_ERROR(false,10002,"远程调用失败"),
+    REMTE_ERROR(false,10003,"远程调用失败"),
+    LOGIN_ERROR(false,10003,"未登录"),
     SERVER_ERROR(false,99999,"抱歉，系统繁忙，请稍后重试！");
    boolean success;
    int code;

@@ -1,5 +1,6 @@
 package com.example.demo.demo.service;
 
+import com.example.demo.common.entity.Result;
 import com.example.demo.demo.hystrix.HiServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;

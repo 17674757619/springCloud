@@ -1,5 +1,8 @@
 package com.example.demo.demo.filter;
 
+import com.alibaba.fastjson.JSON;
+import com.example.demo.common.entity.Result;
+import com.example.demo.common.entity.ResultCode;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import org.slf4j.Logger;
@@ -49,7 +52,9 @@ public class MyFilter extends ZuulFilter {
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);
             try {
-                ctx.getResponse().getWriter().write("token is empty");
+                System.out.println(JSON.toJSONString(new Result(ResultCode.LOGIN_ERROR)));
+                ctx.getResponse().setContentType("text/html;charset=UTF-8");
+                ctx.getResponse().getWriter().write(JSON.toJSONString(new Result(ResultCode.LOGIN_ERROR)));
             } catch (Exception e) {
             }
 
