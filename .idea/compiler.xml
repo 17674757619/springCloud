@@ -12,6 +12,7 @@
         <module name="cloudcommon" />
         <module name="cloudcommonmodel" />
         <module name="eureka-server" />
+        <module name="eurekaserver1" />
         <module name="serice-feign" />
         <module name="service-zuul" />
       </profile>
@@ -31,6 +32,7 @@
       <module name="cloudservice1" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="eurekaserver1" options="-parameters" />
       <module name="serice-feign" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
     </option>
