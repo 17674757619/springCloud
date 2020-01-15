@@ -1,11 +1,13 @@
 package com.example.demo.demo;
 
+import com.didispace.swagger.butler.EnableSwaggerButler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
+@EnableSwaggerButler
 public class Client2Application {
 
     public static void main(String[] args) {

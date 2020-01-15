@@ -16,6 +16,7 @@
         <module>service-zuul</module>
         <module>cloud-common-model</module>
         <module>eureka-server1</module>
+        <module>service-zuul-swagger</module>
     </modules>
 
     <packaging>pom</packaging>

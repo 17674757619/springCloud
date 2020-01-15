@@ -15,6 +15,7 @@
         <module name="eurekaserver1" />
         <module name="serice-feign" />
         <module name="service-zuul" />
+        <module name="servicezuulswagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +36,7 @@
       <module name="eurekaserver1" options="-parameters" />
       <module name="serice-feign" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
+      <module name="servicezuulswagger" options="-parameters" />
     </option>
   </component>
 </project>

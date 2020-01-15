@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b140a1-4b2f-42fb-affe-eb754010c801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul-swagger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul-swagger/src/main/java/demo/ServiceZuulSwaggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-zuul-swagger/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-common/target/classes/com/example/demo/common/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-common/target/classes/com/example/demo/common/entity/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-2/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server1/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server1/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server1/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/HiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/hystrix/HiServiceHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/hystrix/HiServiceHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/service/SchedualServiceHi.java" beforeDir="false" afterPath="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/service/SchedualServiceHi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serice-feign/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serice-feign/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/Client1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/Client1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/controller/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/controller/HiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/Client2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/Client2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/controller/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/controller/HiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/MyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -29,6 +27,7 @@
     <ignored path="$PROJECT_DIR$/cloud-common/target/" />
     <ignored path="$PROJECT_DIR$/cloud-common-model/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server1/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul-swagger/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +59,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/ServiceZuulApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/MyFilter.java">
+        <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/java/demo/ServiceZuulSwaggerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="54" column="89" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
+            <state relative-caret-position="238">
+              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -90,74 +86,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="17">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/Result.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/ResultCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/hystrix/HiServiceHystrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/HiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-              <folding>
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/BaseExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/controller/HiController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/service-zuul-swagger/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="-714">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -171,13 +128,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/entity/Result.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/entity/PageResult.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/entity/StatusCode.java" />
@@ -188,11 +149,9 @@
         <option value="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/Client1Application.java" />
         <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-common-model/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-service-1/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/StatusCode.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/Result.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/common/entity/ResultCode.java" />
-        <option value="$PROJECT_DIR$/cloud-service-2/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/controller/HiController.java" />
         <option value="$PROJECT_DIR$/serice-feign/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
@@ -212,13 +171,25 @@
         <option value="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/hystrix/HiServiceHystrix.java" />
         <option value="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/BaseExceptionHandler.java" />
         <option value="$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/HiController.java" />
-        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/CustomSendErrorFilter.java" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/ThrowExceptionFilter.java" />
-        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/ServiceZuulApplication.java" />
         <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/Result.java" />
-        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/ResultCode.java" />
+        <option value="$PROJECT_DIR$/cloud-service-1/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/Client2Application.java" />
+        <option value="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/Client1Application.java" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/MyFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/service-zuul-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul-swagger/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/ServiceZuulApplication.java" />
+        <option value="$PROJECT_DIR$/service-zuul-swagger/src/main/java/ServiceZuulSwaggerApplication.java" />
+        <option value="$PROJECT_DIR$/service-zuul-swagger/src/main/java/demo/ServiceZuulApplication.java" />
+        <option value="$PROJECT_DIR$/service-zuul-swagger/src/main/java/demo/ServiceZuulSwaggerApplication.java" />
       </list>
     </option>
   </component>
@@ -242,7 +213,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-18" />
     <option name="y" value="2" />
     <option name="width" value="1936" />
@@ -267,54 +238,6 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
               <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -341,29 +264,37 @@
             <path>
               <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul-swagger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul-swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul-swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul-swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-zuul-swagger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,26 +314,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578991174776" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-service-1/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579076106915" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-zuul-swagger" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.27586207" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/service-zuul-swagger" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example" />
+      <recent name="demo" />
       <recent name="" />
+      <recent name="com.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\servlet\bootdo\springCloud\service-zuul-swagger\src\main\java" />
+      <recent name="D:\servlet\bootdo\springCloud\service-zuul-swagger\src\main\resources" />
+      <recent name="D:\servlet\bootdo\springCloud" />
       <recent name="D:\servlet\bootdo\springCloud\eureka-server1\src\main\resources" />
       <recent name="D:\servlet\bootdo\springCloud\eureka-server1\src\main" />
-      <recent name="D:\servlet\bootdo\springCloud\eureka-server1\src" />
-      <recent name="D:\project\springCloud\cloud-service-1\src\main\java\com\example\demo" />
-      <recent name="D:\project\springCloud\cloud-common\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,7 +356,7 @@
     </option>
     <option name="contentProportion" value="0.26220018" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Client2Application">
+  <component name="RunManager" selected="Spring Boot.ServiceZuulSwaggerApplication (1)">
     <configuration name="Client1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-service-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.demo.Client1Application" />
@@ -490,6 +423,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceZuulSwaggerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="servicezuulswagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.ServiceZuulSwaggerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-service-2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.demo.Client2Application" />
@@ -505,6 +446,7 @@
       <item itemvalue="Spring Boot.FeignApplication" />
       <item itemvalue="Spring Boot.ServiceZuulApplication" />
       <item itemvalue="Spring Boot.Client2Application" />
+      <item itemvalue="Spring Boot.ServiceZuulSwaggerApplication (1)" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -526,12 +468,15 @@
       <workItem from="1578837702069" duration="1466000" />
       <workItem from="1578880744804" duration="429000" />
       <workItem from="1578881185003" duration="14984000" />
-      <workItem from="1578963763873" duration="16492000" />
+      <workItem from="1578963763873" duration="18130000" />
+      <workItem from="1579050802343" duration="4447000" />
+      <workItem from="1579059803446" duration="365000" />
+      <workItem from="1579060190901" duration="9574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72035000" />
+    <option name="totallyTimeSpent" value="88059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +490,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49571183" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49571183" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="1" sideWeight="0.50428814" side_tool="true" weight="0.26279318" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -567,12 +512,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.4995958" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4995958" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" x="169" y="329" width="616" height="220" id="Run Dashboard" order="14" sideWeight="0.49555376" visible="true" weight="0.36836404" />
+      <window_info anchor="bottom" x="169" y="329" width="616" height="220" id="Run Dashboard" order="14" sideWeight="0.49555376" visible="true" weight="0.36836404" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20628998" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2803838" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
@@ -590,12 +535,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-common1/src/main/java/entity/Result.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-common1/src/main/java/entity/PageResult.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-common1/src/main/java/entity/StatusCode.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-common1/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-common1/cloud-common.iml" />
-    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/Client1Application.java" />
     <entry file="file://D:/openSoft/maven/apache-maven-3.5.2/conf/settings.xml" />
     <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/PageResult.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -615,13 +554,6 @@
     <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/DemoApplication.java" />
     <entry file="file://$PROJECT_DIR$/cloud-service-1/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-1/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
@@ -647,50 +579,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/controller/HiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server1/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server1/src/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/application.properties" />
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/example/demo/demo/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/Client2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/Client1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -739,20 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -771,20 +651,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/service/SchedualServiceHi.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.11.1/xstream-1.4.11.1.jar!/com/thoughtworks/xstream/core/BaseException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="136">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/ThrowExceptionFilter.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.37/fastjson-1.2.37.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="390" column="25" selection-start-line="390" selection-start-column="25" selection-end-line="390" selection-end-column="25" />
+          <folding>
+            <element signature="e#14728#14729#0" expanded="true" />
+            <element signature="e#14785#14786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/BaseExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/controller/HiController.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/Client2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/Client1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -800,111 +776,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.11.1/xstream-1.4.11.1.jar!/com/thoughtworks/xstream/core/BaseException.class">
+    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/service/SchedualServiceHi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="32" />
           <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/HiController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-service-2/src/main/java/com/example/demo/demo/controller/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/java/com/example/demo/demo/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-1/src/main/java/com/example/demo/demo/controller/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul-swagger/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/ThrowExceptionFilter.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#2234#2235#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/ServiceZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/java/demo/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/serice-feign/src/main/java/com/example/demo/demo/controller/BaseExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/java/demo/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/example/demo/common/entity/Result.java">
+    <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/java/ServiceZuulSwaggerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-1/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service-zuul-swagger/src/main/java/demo/ServiceZuulSwaggerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/example/demo/demo/filter/MyFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="54" column="89" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
+        <state relative-caret-position="238">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
         </state>
       </provider>
     </entry>

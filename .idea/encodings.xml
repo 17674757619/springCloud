@@ -10,5 +10,6 @@
     <file url="file://$PROJECT_DIR$/eureka-server1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/serice-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-zuul-swagger" charset="UTF-8" />
   </component>
 </project>
